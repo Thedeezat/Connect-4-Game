@@ -5,12 +5,6 @@
 #define ROWS 6
 #define COLS 7
 
-//*************** Division of Features added ***********//
-//   1. Hadiza: Player, modes
-//   2. Ustaz: Game board, win
-//   3. Mariam: lose, tie, restart
-//*****************************************************//
-
 void pickGameMode(char[][COLS]);
 int computerMove(char[][COLS]);
 void playGame(char[][COLS], char);
